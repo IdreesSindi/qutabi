@@ -1,0 +1,367 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem 0rem 1.5rem 1rem;
+    background-color: rgb(37, 39, 38);
+    z-index: 100000;
+  
+}
+
+.back{
+    background-image: url(../image/uozBG.jpg);
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    z-index: -1;
+}
+.nav h2 {
+
+    color: aliceblue;
+    font-size: 1.7rem;
+}
+#item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#item li {
+    list-style: none;
+    padding-right: 50px;
+}
+
+#item li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+#item li a:hover , #item .icon i:hover , .mid .btn a.simple:hover {
+   
+    color: rgb(250, 74, 43);
+}
+#item .icon i {
+    color: aliceblue;
+    padding-right: 30px;
+    font-weight: bolder;
+    font-size:36px;
+
+}
+
+.back .overlay {
+    background: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.55;
+}
+.mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.mid p{
+    color: cornsilk;
+    font-size: 1.5rem;
+    margin-bottom: 1.4rem;
+}
+.mid h2{
+    color: cornsilk;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+.mid .btn{
+    margin-top: 2rem;
+    
+}
+.mid .btn a{
+    text-decoration: none;
+    
+}
+.mid .btn a.simple{
+    color: cornsilk;
+    font-weight: 500;
+    padding: 0.9rem 1.6rem;
+  
+
+    
+}
+.mid .btn a.border{
+    color: rgb(250, 74, 43);
+    font-weight: 500;
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 0.9rem 1.6rem;
+}
+.mid .btn a.border:hover {
+    background-color: cornsilk;
+    border-color: cornsilk ;
+    border-radius: 10px;
+
+}
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8rem;
+    background-color:#0d0e0d;
+   
+}
+.details h3{
+    color: cornsilk;
+}
+.details .one{
+    width: 45%;
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+  border-right: 1px solid #fff;
+  padding-right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+.details .one h3 {
+    font-size: 2.5rem;
+    padding-bottom: 1.1rem;
+}
+.details .one p {
+    font-size:1.3rem;
+    color: aliceblue;
+    padding-bottom: 3rem;
+}
+.details .one a {
+   background-color: rgb(250, 74, 43);
+    color:#fff;
+    padding: 1rem 0.3rem;
+    text-decoration: none;
+    text-align: center;
+}
+.details .one a:hover {
+    background-color: #fff;
+    color:  rgb(250, 74, 43);
+}
+.details .two{
+    width: 45%;
+    margin-bottom: 6rem;
+    margin-left: 1rem;
+   
+
+}
+.details .two h3{
+    font-size: 2.5rem;
+    padding-bottom: 1.1rem;
+}
+.details .two p{
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    color: aliceblue;
+}
+
+#subject {
+    background: #f9f9f9;
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+}
+#subject .card{
+   width: 55%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items:center;
+
+}
+#subject .card .computer{
+    width: 60%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.053),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.077),
+    0 12.5px 10px rgba(0, 0, 0, 0.095),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.113),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.137),
+    0 100px 80px rgba(0, 0, 0, 0.19)
+  ;
+  
+
+ }
+ #subject .card .computer:hover{
+    width: 70%;
+   
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.155),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.222),
+    0 12.5px 10px rgba(0, 0, 0, 0.275),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.328),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.395),
+    0 100px 80px rgba(0, 0, 0, 0.55)
+  ;
+  cursor:grab;
+  
+
+ }
+ #subject .card .computer .img img {
+
+    width: 100%;
+    object-fit: cover;
+ }
+ #subject .card .computer .subjectDetails h4 {
+     color: #212529;
+     font-size: 1.5rem;
+     text-align: center;
+ }
+.subjectTitle{
+
+    background: #f9f9f9;
+    text-align: center;
+
+}
+.contact {
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact .form , .contact .map {
+    width: 45%;
+}
+.contact .form h2 , .contact .map h2{
+   font-size: 2rem;
+   color: #212529;
+   padding-bottom: 15px;
+   width: 100%;
+
+}
+.contact .map  p {
+    font-size: 1.5rem;
+    color: #212529;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.contact .map  p i , .footer p i {
+   
+    color: red;
+    padding-right: 5px;
+ 
+}
+
+.contact .form .submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact .form .submit input , .contact .form .submit  textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #95a5a6;
+    outline: none;
+    margin: 13px 0;
+}
+.contact .form .submit input:focus , .contact .form .submit  textarea:focus{
+    border: 1.2px solid rgb(248, 211, 0);
+
+}
+.contact .form .submit input::placeholder {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+.contact .form .submit textarea::placeholder {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    height: 80%;
+}
+
+.contact .form .submit a {
+    width: 100%;
+    padding: 15px ;
+    text-decoration: none;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 13px;
+}
+.contact .form .submit a:hover{
+    background: darkturquoise;
+    color: rgb(0, 0, 0);
+
+}
+
+.footer {
+
+    border-top: 1px solid #ecf0f1;
+    padding: 5rem 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer p {
+    color: #7f8c8d;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1042px){
+    .nav {
+        padding: 1rem 4.5rem;
+    }
+    .nav h2 {
+
+        
+        font-size: 1.4rem;
+    }
+
+#item li {
+   
+    padding-right: 30px;
+}
+
+    
+}
+@media screen and (max-width: 991px){
+    
+    
+}
+@media screen and (max-width: 768px){
+    
+    
+}
+@media screen and (max-width: 496px){
+    
+    
+}
+
+
+
+
+
+
+
