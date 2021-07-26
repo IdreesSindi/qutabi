@@ -11,14 +11,18 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 1.5rem 0rem 1.5rem 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  
+    margin: 0;
     background-color: rgb(37, 39, 38);
     z-index: 100000;
+    
   
 }
 
 .back{
-    background-image: url("uozBG.jpg");
+    background-image: url("../image/uozBG.jpg");
     background-size: cover;
     width: 100%;
     height:100vh;
@@ -28,6 +32,7 @@
 
     color: aliceblue;
     font-size: 1.7rem;
+    padding-left: 3rem;
 }
 #item {
     display: flex;
@@ -38,7 +43,7 @@
 
 #item li {
     list-style: none;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 #item li a {
@@ -52,9 +57,9 @@
 }
 #item .icon i {
     color: aliceblue;
-    padding-right: 30px;
+    padding-right: 3rem;
     font-weight: bolder;
-    font-size:36px;
+  
 
 }
 
@@ -331,7 +336,9 @@
 
 @media screen and (max-width: 1042px){
     .nav {
-        padding: 1rem 4.5rem;
+     
+       
+        
     }
     .nav h2 {
 
@@ -339,10 +346,25 @@
         font-size: 1.4rem;
     }
 
-#item li {
-   
-    padding-right: 30px;
-}
+    #item li {
+    
+        padding-right: 30px;
+    }
+    #item li a{
+    
+        font-size: 0.9rem;
+    }
+    #item .icon i{
+    
+        padding-right: 30px;
+    }
+    .back{
+       
+       
+        width: 100%;
+        height:100vh;
+        z-index: -1;
+    }
 
     
 }
