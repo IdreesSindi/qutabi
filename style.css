@@ -25,7 +25,7 @@
 }
 
 .back{
-    background-image: url("uozBG.jpg");
+    background-image: url("../image/uozBG.jpg");
     background-size:cover;
    
     width: 100%;
@@ -471,6 +471,10 @@
         .details {
           
             padding-top: 6rem;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+       
        
         
            
@@ -480,6 +484,9 @@
         }
         .details .one{
             width: 50%;
+            border-right: 0;
+        border-bottom: 1px solid #666262;
+        padding-bottom: 2rem;
 
         
         }
