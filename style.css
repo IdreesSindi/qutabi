@@ -451,7 +451,11 @@
             font-size: 2.5rem;
         }
         .mid .btn{
-            margin-top: 1.5rem;
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
             
         }
         .mid .btn a{
@@ -459,11 +463,11 @@
             
         }
         .mid .btn a.simple{
-            padding: 0.7rem 1.4rem;            
+            padding: 0.7rem 1.4rem;   
+            margin-bottom: 7px;             
         }
         .mid .btn a.border{
-            
-            border-radius: 7px;
+
             padding: 0.7rem 1.4rem;
         }
 
@@ -479,14 +483,12 @@
         
            
         }
-        .details h3{
-            color: cornsilk;
-        }
+   
         .details .one{
             width: 50%;
             border-right: 0;
-        border-bottom: 1px solid #666262;
-        padding-bottom: 2rem;
+            border-bottom: 1px solid #666262;
+            padding-bottom: 2rem;
 
         
         }
