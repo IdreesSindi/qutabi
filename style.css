@@ -25,7 +25,7 @@
 }
 
 .back{
-    background-image: url("uozBG.jpg");
+    background-image: url("../image/uozBG.jpg");
     background-size:cover;
    
     width: 100%;
@@ -515,6 +515,27 @@
         .details .two p{
             font-size: 1rem;
         }
+        #subject .card{
+            width: 95%;
+            height: 95%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+           align-items: center;
+           margin-bottom: 2rem;
+           margin-top: 2rem;
+        
+         
+         }
+         #subject {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+           align-items: center;
+           margin-bottom: 2rem;
+        
+         
+         }
     
     
 
@@ -563,9 +584,8 @@
     .details {
       
         padding-top: 5rem;
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
+        
+     
    
     
        
@@ -601,6 +621,33 @@
     
      
      }
+     .contact {
+        padding: 5rem 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .contact .form , .contact .map {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    .footer {
+
+       
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer p {
+        margin-bottom: 2rem;
+    }
+  
+
+
    
    
 }
