@@ -33,7 +33,7 @@ body {
 }
 
 .back{
-    background-image: url("uozBG.jpg");
+    background-image: url("../image/uozBG.jpg");
     background-size:cover;
    
     width: 100%;
@@ -107,7 +107,7 @@ body {
     text-align: center;
 }
 .mid p{
-    color: cornsilk;
+    color:#fff;
     font-size: 1.5rem;
     margin-bottom: 1.4rem;
 }
@@ -270,6 +270,16 @@ body {
      font-size: 1.5rem;
      text-align: center;
  }
+ #subject .card a h4:hover {
+          background-color: rgb(20, 197, 220);
+         
+ 
+ }
+ #subject .card a {
+    text-decoration: none;
+    
+}
+
 .subjectTitle{
 
     background: #fff;
@@ -372,19 +382,7 @@ width: 500px;
 }
 
 
-.reportArea  {
-    width: 100%;
-    height: 100%;
-   
-    margin-top: 4rem;
-    
-}
-.reportArea iframe {
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    
-}
+
 
 
 
@@ -445,7 +443,7 @@ width: 500px;
            
 
         }
-
+  
 
 
         #item li {
@@ -484,11 +482,11 @@ width: 500px;
         }
         .mid p{
             
-            font-size: 1.1rem;
+            font-size: 1.8rem;
             margin-bottom: 1.2rem;
         }
         .mid h2{
-            font-size: 2.5rem;
+            font-size: 3rem;
         }
         .mid .btn{
             margin-top: 1rem;
@@ -499,7 +497,7 @@ width: 500px;
             
         }
         .mid .btn a{
-            font-size: 0.9rem;
+            font-size: 2.1rem;
             
         }
         .mid .btn a.simple{
@@ -525,7 +523,7 @@ width: 500px;
         }
    
         .details .one{
-            width: 50%;
+            width: 90%;
             border-right: 0;
             border-bottom: 1px solid #666262;
             padding-bottom: 2rem;
@@ -533,24 +531,27 @@ width: 500px;
         
         }
         .details .one h3 {
-            font-size: 2rem;
+            font-size: 3rem;
             padding-bottom: 1rem;
         }
         .details .one p {
-            font-size:1.1rem;
+            font-size:2.5rem;
             padding-bottom: 2.2rem;
         }
         .details .one a {
-            font-size: 0.9rem;
+            font-size: 1.5rem;
         }
-       
+        .details .two{
+            width: 90%;
+
+        }
 
         .details .two h3{
-            font-size: 2rem;
+            font-size: 3rem;
          
         }
         .details .two p{
-            font-size: 1rem;
+            font-size: 2.5rem;
         }
         #subject .card{
             width: 95%;
@@ -562,6 +563,11 @@ width: 500px;
            margin-bottom: 2rem;
            margin-top: 2rem;
         
+         
+         }
+         #subject .card h4{
+          
+            font-size: 3.2rem;
          
          }
          #subject {
@@ -606,7 +612,11 @@ width: 500px;
         }
         .footer p {
             margin-bottom: 2rem;
+            font-size: 2rem;
         }
+
+
+      
     
     
 
@@ -774,6 +784,12 @@ width: 500px;
     
 }
 
+.card .list-group a{
+    text-decoration: none;
+}
+.card .list-group a li:hover{
+  color: rgb(139, 84, 1);
+}
 
 
 
@@ -787,4 +803,41 @@ width: 500px;
     @include media-breakpoint-only(xl) {
       column-count: 5;
     }
+  }
+
+
+
+
+  .collapsible {
+    background-color: rgb(88, 88, 88);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+   
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(16, 233, 179);
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  
+    background-color: #f1f1f1;
+  }
+  .content iframe{
+      width: 100%;
+     height: 90vh;
+     
+  }
+  .rTitile{
+    text-align: center;
+    margin-top: 8rem;
   }
