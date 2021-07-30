@@ -33,7 +33,7 @@ body {
 }
 
 .back{
-    background-image: url("../image/uozBG.jpg");
+    background-image: url("uozBG.jpg");
     background-size:cover;
    
     width: 100%;
