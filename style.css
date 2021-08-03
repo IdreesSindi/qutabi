@@ -565,9 +565,9 @@ width: 500px;
         
          
          }
-         #subject .card h4{
+         #subject .card .subjectDetails .report a h4 , #subject .card .subjectDetails .presentation a h4{
           
-            font-size: 3.2rem;
+         font-size: 4rem;
          
          }
          #subject {
@@ -616,7 +616,7 @@ width: 500px;
         }
 
 
-      
+  
     
     
 
@@ -817,7 +817,7 @@ width: 500px;
     border: none;
     text-align: center;
     outline: none;
-    font-size: 20px;
+    font-size: 2rem;
    
   }
   
@@ -840,4 +840,5 @@ width: 500px;
   .rTitile{
     text-align: center;
     margin-top: 8rem;
+    font-size: 3rem;
   }
