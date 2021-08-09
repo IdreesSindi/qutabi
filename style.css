@@ -565,6 +565,14 @@ width: 500px;
         
          
          }
+         #subject .card .computer:hover{
+            width: 60%;
+           
+     
+      
+          
+        
+         }
          #subject .card .subjectDetails .report a h4 , #subject .card .subjectDetails .presentation a h4{
           
          font-size: 4rem;
