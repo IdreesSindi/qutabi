@@ -10,6 +10,7 @@
 
 html {
     scroll-behavior: smooth;
+    
   
 }
 body {
@@ -304,6 +305,11 @@ body {
    width: 100%;
 
 }
+.contact .form h2 , .contact .map h2 , .contact .map p{
+justify-content: center;
+text-align: center;
+ 
+ }
 .contact .map  p {
     font-size: 1.5rem;
     color: #212529;
@@ -319,7 +325,8 @@ body {
 .contact .map iframe{
    
 height: 310px;
-width: 500px;
+width: 100%;
+border: darkblue solid 1px;
  
 }
 
@@ -857,3 +864,5 @@ width: 500px;
     margin-top: 8rem;
     font-size: 3rem;
   }
+
+
