@@ -33,12 +33,11 @@ body {
 }
 
 .back{
-    background-image: url("uozBG.jpg");
-    background-size:cover;
-   
+    background: url("uozBG.jpg") center / cover;
+  
     width: 100%;
     height:90vh;
-    z-index: -1;
+   
     
     
 }
@@ -444,8 +443,7 @@ width: 500px;
 
         }
   
-
-
+ 
         #item li {
 
            padding: 4px 0;
@@ -508,7 +506,7 @@ width: 500px;
 
             padding: 0.7rem 1.4rem;
         }
-
+     
 
         .details {
           
@@ -622,6 +620,7 @@ width: 500px;
             margin-bottom: 2rem;
             font-size: 2rem;
         }
+      
 
 
   
@@ -637,9 +636,7 @@ width: 500px;
         
         font-size: 1.5rem;
     }
-    .back {
-        background-position: center;
-    }
+  
 
 
    
@@ -743,7 +740,7 @@ width: 500px;
 @media screen and (max-width: 496px){
 
    
-   
+ 
     .mid p{
 
         margin-bottom: 0.8rem;
